@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <h1>Feedback Form</h1>
+
+        <!-- Mentor Name Section -->
+        <div class="mentor-section">
+            <h3>Name of Mentor</h3>
+            <div class="input-group">
+                <input type="text" placeholder="First Name" name="mentorFirstName">
+                <input type="text" placeholder="Last Name" name="mentorLastName">
+            </div>
+        </div>
+
+        <!-- Evaluation Section -->
+        <div class="evaluation-section">
+            <h3>Evaluation</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Criteria</th>
+                        <th>Strongly Agree</th>
+                        <th>Agree</th>
+                        <th>Neutral</th>
+                        <th>Disagree</th>
+                        <th>Strongly Disagree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>My mentor has been readily available and reachable</td>
+                        <td><input type="radio" name="x" value="Strongly Agree"></td>
+                        <td><input type="radio" name="x" value="Agree"></td>
+                        <td><input type="radio" name="x" value="Neutral"></td>
+                        <td><input type="radio" name="x" value="Disagree"></td>
+                        <td><input type="radio" name="x" value="Strongly Disagree"></td>
+                    </tr>
+                    <tr>
+                        <td>My mentor provided support in order to address my academic difficulties</td>
+                        <td><input type="radio" name="y" value="Strongly Agree"></td>
+                        <td><input type="radio" name="y" value="Agree"></td>
+                        <td><input type="radio" name="y" value="Neutral"></td>
+                        <td><input type="radio" name="y" value="Disagree"></td>
+                        <td><input type="radio" name="y" value="Strongly Disagree"></td>
+                    </tr>
+                    <tr>
+                        <td>My mentor provided guidance and assistance in ensuring the submissions of my deliverables and perfromance.</td>
+                        <td><input type="radio" name="z" value="Strongly Agree"></td>
+                        <td><input type="radio" name="z" value="Agree"></td>
+                        <td><input type="radio" name="z" value="Neutral"></td>
+                        <td><input type="radio" name="z" value="Disagree"></td>
+                        <td><input type="radio" name="z" value="Strongly Disagree"></td>
+                    </tr>
+                    <tr>
+                        <td>My mentor expressed concern towards me.</td>
+                        <td><input type="radio" name="a" value="Strongly Agree"></td>
+                        <td><input type="radio" name="a" value="Agree"></td>
+                        <td><input type="radio" name="a" value="Neutral"></td>
+                        <td><input type="radio" name="a" value="Disagree"></td>
+                        <td><input type="radio" name="a" value="Strongly Disagree"></td>
+                    </tr>
+                    <tr>
+                        <td>My mentor demonstrated professionalism and courtesy all the time.</td>
+                        <td><input type="radio" name="av" value="Strongly Agree"></td>
+                        <td><input type="radio" name="av" value="Agree"></td>
+                        <td><input type="radio" name="av" value="Neutral"></td>
+                        <td><input type="radio" name="av" value="Disagree"></td>
+                        <td><input type="radio" name="av" value="Strongly Disagree"></td>
+                    </tr>
+                    <tr>
+                        <td>My mentor has been beneficial to me</td>
+                        <td><input type="radio" name="b" value="Strongly Agree"></td>
+                        <td><input type="radio" name="b" value="Agree"></td>
+                        <td><input type="radio" name="b" value="Neutral"></td>
+                        <td><input type="radio" name="b" value="Disagree"></td>
+                        <td><input type="radio" name="b" value="Strongly Disagree"></td>
+                    </tr>
+                    <tr>
+                        <td>I look forward for another term of mentoring with my mentor</td>
+                        <td><input type="radio" name="availability" value="Strongly Agree"></td>
+                        <td><input type="radio" name="availability" value="Agree"></td>
+                        <td><input type="radio" name="availability" value="Neutral"></td>
+                        <td><input type="radio" name="availability" value="Disagree"></td>
+                        <td><input type="radio" name="availability" value="Strongly Disagree"></td>
+                    </tr>
+                    <!-- Repeat rows for additional criteria -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Feedback Section -->
+        <div class="feedback-section">
+            <h3>Give Us Feedback!</h3>
+            <p>Your input is important to us. We take mentee feedback very seriously.</p>
+            <div class="emoji-container">
+                <span class="emoji">😰</span>
+                <span class="emoji">😔</span>
+                <span class="emoji">😐</span>
+                <span class="emoji">😊</span>
+                <span class="emoji">🥰</span>
+            </div>
+            <textarea name="comments" placeholder="Add a comment"></textarea>
+        </div>
+
+        <!-- Mentee Name Section -->
+        <div class="mentee-section">
+            <h3>Name of Mentee</h3>
+            <div class="input-group">
+                <input type="text" placeholder="First Name" name="menteeFirstName">
+                <input type="text" placeholder="Last Name" name="menteeLastName">
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="submit-button">
+            <button type="submit">Submit Feedback</button>
+        </div>
+    </div>
+</body>
+</html>
